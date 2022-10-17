@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Form Etiketleri</title>
+        
+    <!-- burası yorum satırı--> 
+    </head>
+    <body>
+        <form action="" method="GET" id="form1">
+            <fieldset>
+                <legend>Giriş Yap</legend>
+                <label for="kullanıcıadi">kullanıcı adı:</label>
+                <input maxlength="6" id="kullanıcıadi" type="text" value=""><br>
+                <label for="sifre">Şifre:</label>
+                <input maxlength="7" minlength="4" id="sifre" type="password" value=""><br>
+                <label for="eposta">Email:</label>
+                <input type="email"><br>
+                <label for="numara">Numara:</label>
+                <input type="number"><br>
+                <label for="urlsi">Url adresi:</label>
+                <input type="url"><br>
+                <label for="dosya">dosya seç</label>
+                <input id="dosya" type="file" multiple accept="image/*"><br>
+            </fieldset>
+            <label >
+                <input type="checkbox">Kuralları kabul ediyorum
+            </label><br>
+            <label >
+                <input type="checkbox" checked>okudum, anladım
+            </label><br>
+            <label >
+                <input type="radio" name="cinsiyet" value="erkek">Erkek
+            </label>
+            <label>
+                <input type="radio" name="cinsiyet" value="kadin">Kadın 
+            </label>
+            <input type="hidden">
+            <input type="submit" value="Gönder"><br>
+            <input type="submit" value="Gönder 2" formtarget="_blank"><br>
+            <input type="reset" value="temizle">
+            
+        </form>
+        <br><br><br><br><br>
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="datetime-local"> <br>
+        <input type="month"><br>
+        <input type="week"><br>
+        <input type="range" min="1" max="20" step="2"><br>
+        <input autofocus type="search"><br>
+        <input type="tel"><br>
+        <input type="time"><br>
+        <input type="text" autocomplete="off" name="kullanicıadi"><br><br>
+
+        <input list="diller" name="diller" form="form1">
+        <datalist id="diller">
+            <option value="CSS">
+                <option value="html">
+                    <option value="javascript">
+        </datalist> <br><br>
+        <select name="dil[]" >
+            <optgroup label="Front-end dillleri">
+                <option value="css">css</option>
+                <option value="javascrpit">javascsşpt</option>
+                <option value="html">htmll</option>
+            </optgroup>
+            <optgroup label="backend dilleri">
+                <option value="python">python</option>
+                <option value="java">java</option>
+                <option value="react">react</option>
+
+            </optgroup>
+        </select><br><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+        <button type="submit">Gönder</button>
+        
+    </body>
+
+</html>
