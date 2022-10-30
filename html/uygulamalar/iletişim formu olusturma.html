@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iletisimFormu</title>
+</head>
+<body>
+    <form name="iletisimformu" method="POST" action="">
+        <p>İsim: <input type="text" name="name-surname" class="name-surname" required placeholder="isim:"></p>
+        <p>Soyisim: <input type="text" name="name-surname" class="name-surname" required placeholder="Soyadınızı giriniz..."></p>
+        <p>Sevdiğiniz Spor: 
+            <input type="checkbox" name="spor" value="futbol">Futbol
+            <input type="checkbox" name="spor" value="basketbol">Basketbol
+            <input type="checkbox" name="spor" value="voleybol">Voleybol
+        
+        </p>
+        <p>
+            Cinsiyet:
+            <input type="radio" name="gender" value="Erkek">Erkek
+            <input type="radio" name="gender" value="Kadın">Kadın
+        </p>
+        <p>
+            <p>Güvenlik Sorusu: Türkiye'nin başkenti neresidir?</p>
+            <select name="city-id" id="city-id" required>
+                <option value="bos">Lütfen bir cevap seçiniz...</option>
+                <option value="1">Antalya</option>
+                <option value="2">Ankara</option>
+                <option value="3">İstanbul</option>
+                <option value="4">İzmir</option>
+                <option value="5">Adana</option>
+                <option value="6">Eskişehir</option>
+                <option value="7">Konya</option>
+            </select>
+        </p>
+        <p><button type="submit">Kayıt Ol</button></p>
+    </form>
+    
+</body>
+</html>

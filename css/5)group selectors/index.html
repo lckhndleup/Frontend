@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group selectors</title>
+    <style>
+        *{
+            color: blue;
+            background-color: goldenrod;
+        }
+        p{
+            color: aqua;
+        }
+        
+        
+        div .paragraf1{  
+            color: blueviolet;
+            background-color: aqua;
+
+        }
+        div p{
+            color: red !important;
+            background-color: aliceblue !important;
+        }
+    
+
+    </style>
+
+
+
+</head>
+<body>
+    <div class="container">
+        burası div
+        <p class="paragraf1">
+            paragraf1
+        </p>
+        <p class="paragraf2">
+            paragraf2
+        </p>
+        <p class="paragraf3">
+            paragraf3
+        </p>
+    </div>
+    <div class="container">
+        <h2>DİV2</h2>
+    </div>
+</body>
+</html>
