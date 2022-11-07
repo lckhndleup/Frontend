@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    width: 1440px;
+    font-family: Didot;
+    text-align: left;
+    
+
+}
+div h1 {
+    color: #937263;
+    font-size: 64px;
+}
+.text h6 {
+    color: #262626;
+    font-size: 32px;
+    margin-top: 250px;
+    margin-right: 100px;
+    
+
+}
+
+
+.text p {
+    color: #262626;
+    font-size: 18px;
+    margin-right: 100px;
+    
+    
+    
+    
+}
+.photo img {
+    width: 100%;
+    height: 800px;
+    margin-top: 25px ;
+}
+.text {
+    flex-direction: column;
+    align-content: space-between;
+    width: 30%;
+    
+    
+    
+}
+.top {
+   width: 10%; 
+}
+
+
+.photo {
+    width: 60%;
+    
+}
+
